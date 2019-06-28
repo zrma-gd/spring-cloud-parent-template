@@ -1,0 +1,7 @@
+#JWT凭证
+token: 
+  audience:
+    clientId: 098f6bcd4621d373cade4e832627b4f6
+    AdminBase64Secret: 2kHUbgAq0oEMqkEfgCPTEuBjO5LQzQfHMX7mVTeJYvT00r7HSeBmakeK8fXFDoLd
+    name: dbackup
+    expiresSecond: 360000000

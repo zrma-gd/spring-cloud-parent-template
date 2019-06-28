@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.cloud.template</groupId>
+	<artifactId>spring-cloud-parent-template</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>spring-cloud-parent-template</name>
+	<url>http://maven.apache.org</url>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.0.4.RELEASE</version>
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<parent.version>0.0.1-SNAPSHOT</parent.version>
+
+		<!-- spring-cloud-common version -->
+		<common.version>0.0.1-SNAPSHOT</common.version>
+		<!-- spring-cloud-common-core version -->
+		<common.core.version>0.0.1-SNAPSHOT</common.core.version>
+		<!-- spring-cloud-common-feign version -->
+		<common.feign.version>0.0.1-SNAPSHOT</common.feign.version>
+		<!-- spring-cloud-common-starter version -->
+		<common.starter.version>0.0.1-SNAPSHOT</common.starter.version>
+
+		<!-- spring-cloud-sentinel-feign version -->
+		<sentinel.feign.version>0.0.1-SNAPSHOT</sentinel.feign.version>
+		<!-- spring-cloud-feign version -->
+		<feign.version>0.0.1-SNAPSHOT</feign.version>
+		<!-- spring-cloud-sentinel version -->
+		<sentinel.version>0.0.1-SNAPSHOT</sentinel.version>
+
+		<!-- spring-cloud-server-api version -->
+		<server.api.version>0.0.1-SNAPSHOT</server.api.version>
+		<!-- spring-cloud-system version -->
+		<server.system.version>0.0.1-SNAPSHOT</server.system.version>
+
+		<!-- spring-cloud-zuul version -->
+		<zuul.version>0.0.1-SNAPSHOT</zuul.version>
+
+	</properties>
+	<!-- spring-cloud -->
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>Finchley.SR1</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-alibaba-dependencies</artifactId>
+				<version>0.2.2.RELEASE</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- spring-cloud-discovery -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+		</dependency>
+	</dependencies>
+	
+	<modules>
+		<module>spring-cloud-zuul</module>
+		<module>spring-cloud-sentinel-feign</module>
+		<module>spring-cloud-server-api</module>
+		<module>spring-cloud-common</module>
+	</modules>
+</project>
