@@ -1,7 +1,0 @@
-G:\zhibowanwei\eclipseCode2\spring-cloud-parent-template\spring-cloud-zuul\src\main\java\org\spring\cloud\zuul\route\entity\ZuulRouteEntity.java
-G:\zhibowanwei\eclipseCode2\spring-cloud-parent-template\spring-cloud-zuul\src\main\java\org\spring\cloud\zuul\route\listener\ZuulRefreshListener.java
-G:\zhibowanwei\eclipseCode2\spring-cloud-parent-template\spring-cloud-zuul\src\main\java\org\spring\cloud\zuul\route\config\NewZuulConfig.java
-G:\zhibowanwei\eclipseCode2\spring-cloud-parent-template\spring-cloud-zuul\src\main\java\org\spring\cloud\zuul\route\config\NacosServerConfig.java
-G:\zhibowanwei\eclipseCode2\spring-cloud-parent-template\spring-cloud-zuul\src\main\java\org\spring\cloud\zuul\route\biz\PropertiesAssemble.java
-G:\zhibowanwei\eclipseCode2\spring-cloud-parent-template\spring-cloud-zuul\src\main\java\org\spring\cloud\zuul\route\NewZuulRouteLocator.java
-G:\zhibowanwei\eclipseCode2\spring-cloud-parent-template\spring-cloud-zuul\src\main\java\org\spring\cloud\zuul\NacosZuulApplication.java
