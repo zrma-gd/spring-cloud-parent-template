@@ -1,8 +1,0 @@
-org\spring\cloud\zuul\route\entity\ZuulRouteEntity.class
-org\spring\cloud\zuul\NacosZuulApplication.class
-org\spring\cloud\zuul\route\config\NacosServerConfig.class
-org\spring\cloud\zuul\route\NewZuulRouteLocator.class
-org\spring\cloud\zuul\route\config\NewZuulConfig.class
-org\spring\cloud\zuul\route\listener\ZuulRefreshListener.class
-org\spring\cloud\zuul\route\biz\PropertiesAssemble.class
-org\spring\cloud\zuul\route\config\NacosServerConfig$1.class
