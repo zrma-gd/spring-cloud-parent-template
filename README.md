@@ -1,12 +1,10 @@
 # spring-cloud-parent-template
 
 #### 介绍
-{**以下是码云平台说明，您可以替换此简介**
-码云是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用码云实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+{ **改项目是基于 阿里巴巴 nacos 注册中心 和配置中心  feign 负载均衡  sentinel 熔断器  zuul 服务网关 的微服务架构** }
 
 #### 软件架构
-软件架构说明
+改项目是基于 阿里巴巴 nacos 注册中心 和配置中心  feign 负载均衡  sentinel 熔断器  zuul 服务网关 的微服务架构
 
 
 #### 安装教程
