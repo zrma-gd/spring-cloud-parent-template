@@ -34,4 +34,5 @@ rebel.xml
  
 # bak
 *.bak
-/bin/
+bin/
+
