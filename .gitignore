@@ -36,3 +36,6 @@ rebel.xml
 *.bak
 bin/
 
+*.js linguist-language=Java
+*.css linguist-language=Java
+*.html linguist-language=Java
