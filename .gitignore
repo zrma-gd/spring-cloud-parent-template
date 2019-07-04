@@ -36,4 +36,4 @@ rebel.xml
 *.bak
 bin/
 
-*.* linguist-language=Java
+*.sql linguist-language=Java
